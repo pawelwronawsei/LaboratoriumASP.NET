@@ -1,0 +1,25 @@
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<div class="container">
+    <div class="row justify-content-md-center">
+        <div class="col-6">
+            <h2>Formularz</h2>
+            <form action="Result" method="POST">
+                <div class="mb-3">
+                    <label class="form-label" for="name">Imie</label>
+                    <input class="form-control" type="text" name="name" step="0.00001" id="name"/>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="birthdate">Data urodzenia</label>
+                    <input class="form-control" type="date" name="birthdate" step="0.00001" id="birthdate"/>
+                </div>
+                <div class="mb-3">
+                    <button class="btn btn-primary" type="submit">Dalej</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
