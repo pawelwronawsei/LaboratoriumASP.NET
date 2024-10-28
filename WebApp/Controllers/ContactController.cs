@@ -1,38 +1,80 @@
 using Microsoft.AspNetCore.Mvc;
-using WebApp.Models;
+using Microsoft.Extensions.FileSystemGlobbing.Internal.PathSegments;
 
 namespace WebApp.Controllers;
 
 public class ContactController : Controller
 {
+
     private static Dictionary<int, ContactModel> _contacts = new()
     {
-        {1,new ContactModel(){Id = 1,FirstName = "Lukas",LastName = "Janus",Email = "LukasJanus@microsoft.wsei.edu.pl", BirthDate = new DateOnly(2003,03,18), PhoneNumber = "+48 607 758 331"}},
-        {2,new ContactModel(){Id = 2,FirstName = "Pawel",LastName = "Wrona",Email = "PawelWrona@microsoft.wsei.edu.pl", BirthDate = new DateOnly(2003,07,18), PhoneNumber = "+48 111 222 333"}},
-        {3,new ContactModel(){Id = 3,FirstName = "Kacper",LastName = "Wojas",Email = "KacperWojas@microsoft.wsei.edu.pl", BirthDate = new DateOnly(2005,03,18), PhoneNumber = "+48 412 123 123"}}
+        {
+            1,
+            new ()
+            {
+                Id = 1,
+                FirstName = "Adam",
+                LastName = "Abecki",
+                Email = "adam@wsei.edu.pl",
+                PhoneNumber = "222 222 222",
+                BirthDate = new DateOnly(2003,10,10)
+            }
+            
+        },
+        {
+            2,
+            new ()
+            {
+                Id = 2,
+                FirstName = "Paweł",
+                LastName = "Wrona",
+                Email = "Pawel@wrona.pl",
+                PhoneNumber = "333 333 333",
+                BirthDate = new DateOnly(2003,07,18)
+            }
+        
+        
+            
+        },
+        {
+            3,
+            new ()
+            {
+                Id = 3,
+                FirstName = "Marcin",
+                LastName = "Tomaszek",
+                Email = "Marcin@Tomek.pl",
+                PhoneNumber = "843 323 313",
+                BirthDate = new DateOnly(2003,09,22)
+            }
+        
+        }
     };
 
     private static int _currentId = 3;
+    
+        
+    // Lista Kontaktów, przycisk dodawania kontaktu
     public IActionResult Index()
     {
         return View(_contacts);
     }
-
+    //formularz dodawania kontaktu
     public IActionResult Add()
     {
         return View();
     }
-
     [HttpPost]
-    public IActionResult Add(ContactModel cm)
+    //Odebranie danych z formularza, walidacji i dodanie kontaktu do kolekcji
+    public IActionResult Add(ContactModel model)
     {
         if (!ModelState.IsValid)
         {
-            return View(cm);
+            return View(model);
         }
-
-        cm.Id = ++_currentId;
-        _contacts.Add(cm.Id,cm);
+        //dodanie modelu kolekcji
+        model.Id = ++_currentId;
+        _contacts.Add(model.Id,model);
         return View("Index", _contacts);
     }
 
@@ -41,14 +83,5 @@ public class ContactController : Controller
         _contacts.Remove(id);
         return View("Index", _contacts);
     }
-
-    public IActionResult Details()
-    {
-        throw new NotImplementedException();
-    }
-
-    public IActionResult Edit()
-    {
-        throw new NotImplementedException();
-    }
+    
 }

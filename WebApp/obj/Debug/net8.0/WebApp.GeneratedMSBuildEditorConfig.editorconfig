@@ -18,12 +18,12 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\intel-i7\RiderProjects\LaboratoriumASP.NET\WebApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/intel-i7/RiderProjects/LaboratoriumASP.NET/WebApp/Pages/Contact/Add.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdFxBZGQuY3NodG1s
+[C:/Users/intel-i7/RiderProjects/LaboratoriumASP.NET/WebApp/Views/Contact/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxBZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/intel-i7/RiderProjects/LaboratoriumASP.NET/WebApp/Pages/Contact/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdFxJbmRleC5jc2h0bWw=
+[C:/Users/intel-i7/RiderProjects/LaboratoriumASP.NET/WebApp/Views/Contact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/intel-i7/RiderProjects/LaboratoriumASP.NET/WebApp/Views/Home/Index.cshtml]
