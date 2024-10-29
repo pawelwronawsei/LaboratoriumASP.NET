@@ -30,8 +30,8 @@
                 <td>@entry.Category.GetDisplayName()</td>
                 <td>
                     <div class="float-end">
-                        <a class="btn btn-success" asp-action="Edit" asp-controller="Contact">Edycja</a>
-                        <a class="btn btn-info" asp-action="Details" asp-controller="Contact">Szczegóły</a>
+                        <a class="btn btn-success" asp-action="Edit" asp-controller="Contact" asp-route-id="@entry.Id">Edycja</a>
+                        <a class="btn btn-info" asp-action="Details" asp-controller="Contact" asp-route-id="@entry.Id">Szczegóły</a>
                         <a class="btn btn-danger" asp-controller="Contact" asp-action="Delete" asp-route-id="@entry.Id">Usuń</a>
                     </div>
                 </td>
