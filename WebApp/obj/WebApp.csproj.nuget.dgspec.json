@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\intel-i7\\RiderProjects\\LaboratoriumASP.NET\\WebApp\\WebApp.csproj": {}
+    "D:\\Users\\pawel.wrona\\RiderProjects\\LaboratoriumASP.NET\\WebApp\\WebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\intel-i7\\RiderProjects\\LaboratoriumASP.NET\\WebApp\\WebApp.csproj": {
+    "D:\\Users\\pawel.wrona\\RiderProjects\\LaboratoriumASP.NET\\WebApp\\WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\intel-i7\\RiderProjects\\LaboratoriumASP.NET\\WebApp\\WebApp.csproj",
+        "projectUniqueName": "D:\\Users\\pawel.wrona\\RiderProjects\\LaboratoriumASP.NET\\WebApp\\WebApp.csproj",
         "projectName": "WebApp",
-        "projectPath": "C:\\Users\\intel-i7\\RiderProjects\\LaboratoriumASP.NET\\WebApp\\WebApp.csproj",
-        "packagesPath": "C:\\Users\\intel-i7\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\intel-i7\\RiderProjects\\LaboratoriumASP.NET\\WebApp\\obj\\",
+        "projectPath": "D:\\Users\\pawel.wrona\\RiderProjects\\LaboratoriumASP.NET\\WebApp\\WebApp.csproj",
+        "packagesPath": "D:\\Users\\pawel.wrona\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\pawel.wrona\\RiderProjects\\LaboratoriumASP.NET\\WebApp\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\intel-i7\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "D:\\Users\\pawel.wrona\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,11 +34,32 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -63,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
