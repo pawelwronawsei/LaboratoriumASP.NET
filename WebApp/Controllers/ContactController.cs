@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.Extensions.FileSystemGlobbing.Internal.PathSegments;
 using WebApp.Models;
 using WebApp.Models.Services;
@@ -27,7 +28,15 @@ public class ContactController : Controller
     //formularz dodawania kontaktu
     public IActionResult Add()
     {
-        return View();
+        ContactModel model = new ContactModel();
+        
+        model.Organizations = _contactService.GetOrganizations().Select(e => new SelectListItem()
+        {
+            Text = e.Name,
+            Value = e.Id.ToString()
+        }).ToList();
+        
+        return View(model);
     }
     [HttpPost]
     //Odebranie danych z formularza, walidacji i dodanie kontaktu do kolekcji
