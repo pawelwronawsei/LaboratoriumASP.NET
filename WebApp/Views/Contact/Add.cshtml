@@ -47,7 +47,9 @@
         <label class="form-label" asp-for="OrganizationId"></label>
         <select class="form-select" asp-for="OrganizationId" asp-items="@Model.Organizations"></select>
         <span class="text-danger" asp-validation-for="OrganizationId"></span>
+        <a href="@Url.Action("Create", "Organization")">Dodaj organizację</a>
     </div>
+    
     
     <button class="btn btn-outline-primary" type="submit">Zapisz</button>
 </form>

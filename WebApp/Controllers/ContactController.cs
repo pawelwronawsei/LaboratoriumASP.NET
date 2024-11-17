@@ -38,15 +38,27 @@ public class ContactController : Controller
         
         return View(model);
     }
+    
     [HttpPost]
     //Odebranie danych z formularza, walidacji i dodanie kontaktu do kolekcji
-    public IActionResult Add(ContactModel model)
+    //po kliknięciu submit
+    //POST dodaje cm jako argument dla metody Add
+    public IActionResult Add(ContactModel cm)
     {
         if (!ModelState.IsValid)
         {
+            ContactModel model = new ContactModel();
+        
+            model.Organizations = _contactService.GetOrganizations().Select(e => new SelectListItem()
+            {
+                Text = e.Name,
+                Value = e.Id.ToString()
+            }).ToList();
+            
             return View(model);
         }
         //dodanie modelu kolekcji
+        _contactService.Add(cm);
         return RedirectToAction(nameof(System.Index));
     }
 

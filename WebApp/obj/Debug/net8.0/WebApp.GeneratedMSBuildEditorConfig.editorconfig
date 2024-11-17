@@ -17,75 +17,75 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebApp
 build_property.RootNamespace = WebApp
-build_property.ProjectDir = D:\Users\pawel.wrona\RiderProjects\LaboratoriumASP.NET\WebApp\
+build_property.ProjectDir = C:\Users\intel-i7\RiderProjects\LaboratoriumASP.NET\WebApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Users\pawel.wrona\RiderProjects\LaboratoriumASP.NET\WebApp
+build_property.MSBuildProjectDirectory = C:\Users\intel-i7\RiderProjects\LaboratoriumASP.NET\WebApp
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Users/pawel.wrona/RiderProjects/LaboratoriumASP.NET/WebApp/Views/Contact/Add.cshtml]
+[C:/Users/intel-i7/RiderProjects/LaboratoriumASP.NET/WebApp/Views/Contact/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxBZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/pawel.wrona/RiderProjects/LaboratoriumASP.NET/WebApp/Views/Contact/Details.cshtml]
+[C:/Users/intel-i7/RiderProjects/LaboratoriumASP.NET/WebApp/Views/Contact/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/pawel.wrona/RiderProjects/LaboratoriumASP.NET/WebApp/Views/Contact/Edit.cshtml]
+[C:/Users/intel-i7/RiderProjects/LaboratoriumASP.NET/WebApp/Views/Contact/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/pawel.wrona/RiderProjects/LaboratoriumASP.NET/WebApp/Views/Contact/Index.cshtml]
+[C:/Users/intel-i7/RiderProjects/LaboratoriumASP.NET/WebApp/Views/Contact/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/pawel.wrona/RiderProjects/LaboratoriumASP.NET/WebApp/Views/Home/Index.cshtml]
+[C:/Users/intel-i7/RiderProjects/LaboratoriumASP.NET/WebApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/pawel.wrona/RiderProjects/LaboratoriumASP.NET/WebApp/Views/Home/Privacy.cshtml]
+[C:/Users/intel-i7/RiderProjects/LaboratoriumASP.NET/WebApp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/pawel.wrona/RiderProjects/LaboratoriumASP.NET/WebApp/Views/Organization/Create.cshtml]
+[C:/Users/intel-i7/RiderProjects/LaboratoriumASP.NET/WebApp/Views/Organization/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JnYW5pemF0aW9uXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/pawel.wrona/RiderProjects/LaboratoriumASP.NET/WebApp/Views/Organization/Delete.cshtml]
+[C:/Users/intel-i7/RiderProjects/LaboratoriumASP.NET/WebApp/Views/Organization/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JnYW5pemF0aW9uXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/pawel.wrona/RiderProjects/LaboratoriumASP.NET/WebApp/Views/Organization/Details.cshtml]
+[C:/Users/intel-i7/RiderProjects/LaboratoriumASP.NET/WebApp/Views/Organization/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JnYW5pemF0aW9uXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/pawel.wrona/RiderProjects/LaboratoriumASP.NET/WebApp/Views/Organization/Edit.cshtml]
+[C:/Users/intel-i7/RiderProjects/LaboratoriumASP.NET/WebApp/Views/Organization/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JnYW5pemF0aW9uXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/pawel.wrona/RiderProjects/LaboratoriumASP.NET/WebApp/Views/Organization/Index.cshtml]
+[C:/Users/intel-i7/RiderProjects/LaboratoriumASP.NET/WebApp/Views/Organization/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JnYW5pemF0aW9uXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/pawel.wrona/RiderProjects/LaboratoriumASP.NET/WebApp/Views/Shared/Error.cshtml]
+[C:/Users/intel-i7/RiderProjects/LaboratoriumASP.NET/WebApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/pawel.wrona/RiderProjects/LaboratoriumASP.NET/WebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/intel-i7/RiderProjects/LaboratoriumASP.NET/WebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/pawel.wrona/RiderProjects/LaboratoriumASP.NET/WebApp/Views/_ViewImports.cshtml]
+[C:/Users/intel-i7/RiderProjects/LaboratoriumASP.NET/WebApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/pawel.wrona/RiderProjects/LaboratoriumASP.NET/WebApp/Views/_ViewStart.cshtml]
+[C:/Users/intel-i7/RiderProjects/LaboratoriumASP.NET/WebApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/pawel.wrona/RiderProjects/LaboratoriumASP.NET/WebApp/Views/Shared/_Layout.cshtml]
+[C:/Users/intel-i7/RiderProjects/LaboratoriumASP.NET/WebApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-7882z672yd
