@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.Extensions.FileSystemGlobbing.Internal.PathSegments;
@@ -6,6 +7,7 @@ using WebApp.Models.Services;
 
 namespace WebApp.Controllers;
 
+[Authorize]
 public class ContactController : Controller
 {
     private readonly IContactService _contactService;
@@ -15,11 +17,12 @@ public class ContactController : Controller
         _contactService = contactService;
     }
 
+    [AllowAnonymous]
     public IActionResult Index()
     {
         return View(_contactService.GetAll());
     }
-
+    
     public IActionResult Details(int id)
     {
         return View(_contactService.GetById(id));

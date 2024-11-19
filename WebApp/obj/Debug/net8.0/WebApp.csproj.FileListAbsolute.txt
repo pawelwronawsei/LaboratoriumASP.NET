@@ -567,3 +567,11 @@ C:\Users\intel-i7\RiderProjects\LaboratoriumASP.NET\WebApp\bin\Debug\net8.0\runt
 C:\Users\intel-i7\RiderProjects\LaboratoriumASP.NET\WebApp\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
 C:\Users\intel-i7\RiderProjects\LaboratoriumASP.NET\WebApp\obj\Debug\net8.0\WebApp.csproj.AssemblyReference.cache
 C:\Users\intel-i7\RiderProjects\LaboratoriumASP.NET\WebApp\obj\Debug\net8.0\WebApp.csproj.CopyComplete
+D:\Users\pawel.wrona\RiderProjects\LaboratoriumASP.NET\WebApp\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Users\pawel.wrona\RiderProjects\LaboratoriumASP.NET\WebApp\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Users\pawel.wrona\RiderProjects\LaboratoriumASP.NET\WebApp\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Users\pawel.wrona\RiderProjects\LaboratoriumASP.NET\WebApp\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\Users\pawel.wrona\RiderProjects\LaboratoriumASP.NET\WebApp\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\Users\pawel.wrona\RiderProjects\LaboratoriumASP.NET\WebApp\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\Users\pawel.wrona\RiderProjects\LaboratoriumASP.NET\WebApp\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Users\pawel.wrona\RiderProjects\LaboratoriumASP.NET\WebApp\obj\Debug\net8.0\WebApp.MvcApplicationPartsAssemblyInfo.cs
